@@ -28,6 +28,14 @@ void libb_happy() {
 }
 
 
+void libb_how_are_you() {
+  fprintf(stdout, "%s\n", "about to say how are you from liba...");
+  liba_goodbye();
+  fprintf(stdout, "%s\n", "about to say how are you from liba... [done]");
+
+  fprintf(stdout, "%s\n", "how ar you from libb");
+}
+
 
 
 
